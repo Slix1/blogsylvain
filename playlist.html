@@ -1,0 +1,18 @@
+---
+layout: page
+title: Ma playlist
+permalink: /playlist/
+---
+
+  {% for list in site.data.playlist %}
+    <p><b>{{ list.name }}</b></p>
+
+    {% for video in list.videos %}
+
+    <figure>
+        <iframe width="640" height="480" src="{{video.links}}" frameborder="0" allowfullscreen></iframe>
+    </figure>
+
+
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,58 @@
+---
+layout: default
+title: Cv
+permalink: /cv/
+---
+
+{% for cv in site.data.cv %}
+
+
+  <p><b>{{ cv.name }}</b></p>
+{% for info in cv.infos %}
+<h1>{{ info.name }}</h1>
+
+  <p>E-mail: {{ info.email }}</p>
+  <p>Adresse: {{ info.adresse }}</p>
+  <p>Téléphone: {{ info.phone }}</p>
+  <p>Né le: {{ info.birth }}</p>
+  {% endfor %}
+
+
+
+{% for work in cv.works %}
+  <p>{{ work.skills }}</p>
+
+ {% for item in work.items %}
+ <ul>
+
+  <li>{{item.name}}</li>
+
+</ul>
+{% endfor %}
+{% endfor %}
+
+{% for mission in cv.missions %}
+  <p>Employeur: {{ mission.employeur }}</p>
+  <p>Début: {{ mission.debut }}</p>
+  <p>Fin: {{ mission.fin }}</p>
+  <p>Poste: {{ mission.emploi }}</p>
+  <p>Fouilles:
+
+  {% for fouille in mission.fouilles %}
+
+<ul>
+  <p>
+   <li>
+     <b>{{fouille.nom}}</b> (période {{fouille.periode}}), sous les responsabilitée de {{fouille.responsable}}.
+   </li>
+ </p>
+
+</ul>
+</p>
+  {% endfor %}
+
+{% endfor %}
+
+
+
+ {% endfor %}

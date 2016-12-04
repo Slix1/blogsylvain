@@ -1,0 +1,11 @@
+- name: Daft Punk
+  videos:
+   - links: //www.youtube.com/embed/k5dqPiLy4uY
+   - links: //www.youtube.com/embed/L93-7vRfxNs
+   - links: //www.youtube.com/embed/5NV6Rdv1a3I
+
+- name: Air
+  videos:
+   - links: //www.youtube.com/embed/Rui0hzN-EFE
+   - links: //www.youtube.com/embed/lC6vZOgYduk
+   - links: //www.youtube.com/embed/VH5bL_XbO64

@@ -1,0 +1,119 @@
+
+- name:
+  infos:
+   - name: Sylvain Jan
+     email: sylvain.jan2@gmail.com
+     adresse: 13 place Gaspard de Coligny 45000 Orleans
+     phone: 06 71 04 60 88
+     birth: 6 juin 1986
+
+- name: Diplomes
+  works:
+   - items:
+      - name: Licence d'histoire et d'archéologie
+      - name: Baccalauréat
+      - name: Brevet des collèges
+
+
+- name: Compétences
+  works:
+   - skills: Terrain
+     items:
+      - name: suivi de pelle mécanique
+      - name: fouille
+      - name: relevés
+      - name: photographie
+      - name: enregistrement stratigraphique
+      - name: fouille et relevés de sépultures
+      - name: aide a l'enregistrement topographique
+
+   - skills: Post-fouille
+     items:
+      - name: traitement du mobilier
+      - name: enregistrement sur base de données
+      - name: DAO
+      - name: rédaction
+
+   - skills: Valorisation
+     items:
+      - name: organisation de vitrines muséographiques et expositions
+      - name: animation de portes ouvertes sur les chantiers
+
+   - skills: Maitrise de logiciels
+     items:
+      - name: Illustrator
+      - name: Filemaker Pro
+      - name: Suite Office
+      - name: QGis
+
+   - skills: Autres
+     items:
+      - name: Permis de conduire et possession d'un véhicule
+      - name: Anglais lu et parlé
+
+- name: Expériences professionnelles
+  missions:
+   - employeur: Departement du Loiret
+     debut: 10/2009
+     fin: 04/2012
+     emploi: archéologue
+     fouilles:
+      - nom: Saran
+        periode: haut moyen-age
+        responsable: A.Laurent
+
+      - nom: Sandillon
+        periode: protohistoire
+        responsable: L.De Souris
+
+      - nom: Meung-sur-Loire
+        periode: protohistoire
+        responsable: A.Laurent
+
+      - nom: Vienne-en-Val
+        periode: protohistoire
+        responsable: L.De Souris
+
+   - employeur: Ville d'Orleans
+     debut: 05/2012
+     fin: 12/2012
+     emploi: archéologue
+     fouilles:
+
+      - nom: Cheval Rouge
+        periode: antiquité/medieval
+        responsable: S.Jesset
+
+   - employeur: Departement d'Eure et Loir
+     debut: 12/2012
+     fin: 11/2016
+     emploi: archéologue
+     fouilles:
+
+      - nom: Poupry
+        periode: protohistoire
+        responsable: J.Y.Noel
+
+      - nom: Poupry
+        periode: protohistoire
+        responsable: G.Chamaux
+
+      - nom: Poupry
+        periode: protohistoire
+        responsable: E.Fenck
+
+      - nom: Nogent-le-Roi
+        periode: protohistoire
+        responsable: J.Y.Noel
+
+      - nom: Illiers-Combray
+        periode: protohistoire
+        responsable: E.Fenck
+
+      - nom: Poupry
+        periode: protohistoire/medieval
+        responsable: S.Liegard
+
+      - nom: Thiron-Gardais
+        periode: medieval
+        responsable: S.Liegard
